@@ -3,6 +3,11 @@
 
 @import 'colors';
 @import 'tachyons';
+@import 'color-swatches';
+
+body {
+  font-family: sans-serif;
+}
 
 .header {
   grid-area: header;
