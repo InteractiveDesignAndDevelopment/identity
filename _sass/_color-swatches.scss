@@ -1,26 +1,2 @@
 .color-swatches {
-  &__swatch {
-    display: grid;
-    grid: ' name .   .   ' minmax(1rem, auto)
-          ' .    .   .   ' minmax(5rem, auto)
-          ' .    .   hex ' minmax(1rem, auto)
-          / 1fr  1fr 1fr;
-    padding: 1rem;
-
-    &--variant {
-      grid: ' name .   .   ' minmax(1rem, auto)
-            ' .    .   .   ' minmax(1rem, auto)
-            ' .    .   hex ' minmax(1rem, auto)
-            / 1fr  1fr 1fr;
-    }
-  }
-
-  &__name {
-    grid-area: name;
-  }
-
-  &__hex {
-    grid-area: hex;
-    text-align: right;
-  }
 }
